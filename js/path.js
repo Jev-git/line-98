@@ -1,9 +1,9 @@
 function Path(start, end, board) {
-    // The queue is a Priority Queue ADT that is arrange by the 'distance' attribute,
+    // This is a Priority Queue arranged by the 'distance' attribute,
     // we will use it to perform the A-star path-finding algorithm
     let queue = [];
     
-    // A 2-dimensional array contains the path to that position from the starting point
+    // A 2-dimensional array contains the path to each position from the starting point
     let path = [];
 
     // A 2-dimensional array contains the parent leads to each node
@@ -22,6 +22,7 @@ function Path(start, end, board) {
         for (let j = 0; j < boardSize; j++) {
             if (board[i][j] == 0) {
                 if(i == start.row && j == start.col) {
+                    // Put the starting position as the first element in the queue
                     queue.unshift({
                         node: {
                             row: i,
@@ -31,6 +32,8 @@ function Path(start, end, board) {
                     })
                     path[i][j] = 0;
                 } else {
+                    // All other elements will has their distance set to INFINITY,
+                    // since we don't know if they can be reached or not
                     queue.push({
                         node: {
                             row: i,
@@ -47,6 +50,8 @@ function Path(start, end, board) {
 
     while(queue.length > 0) {
         let first = queue.shift();
+        // If the first element in the queue is the end grid,
+        // we have found the shortest path to it
         if (first.node.col == end.col && first.node.row == end.row) {
             let list = [];
             let node = first.node;
