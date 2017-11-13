@@ -28,7 +28,7 @@ The backbone of this game is the A-star path-finding algorithm, which is an "ext
 
 In this implementation, we consider each grid on the play field is a node in a graph and every connection between 2 node has the weight of 1.
 
-These are very good explainations of [Dijkstra's algorithm](https://www.youtube.com/watch?v=GazC3A4OQTE) and [A-star algorithm](https://www.youtube.com/watch?v=ySN5Wnu88nE) in case you are not familiare with them.
+These are very good explainations of [Dijkstra's algorithm](https://www.youtube.com/watch?v=GazC3A4OQTE) and [A-star algorithm](https://www.youtube.com/watch?v=ySN5Wnu88nE) in case you are not familiar with them.
 ### Programming pattern
 The game make use of the "State design pattern" to ensure its performance. You can learn more about if [here](http://gameprogrammingpatterns.com/state.html).
 # Future features (which may never got implemented)
@@ -38,7 +38,7 @@ Gameover mechanic
 
 A separate config view
 
-An executable version build with [Electron](https://electron.atom.io/);
+An executable version build with [Electron](https://electron.atom.io/).
 # Reference
 [Computerphile](https://www.youtube.com/user/Computerphile) - My savior and daily entertainment source during college days ╰(▔∀▔)╯
 
