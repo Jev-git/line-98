@@ -8,7 +8,7 @@ Simply clone this repo through git
 ```
 git clone https://github.com/Kspade224/line-98.git
 ```
-And open the file _game.html using a browser
+And open the file game.html using a browser
 # How to play (￣～￣;)
 ### Scoring
 The player select a ball in the play field and move it to a new location in an attempt to make a horizontally or vertically matching group of 3 or more balls with the same color.
