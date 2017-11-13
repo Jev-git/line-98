@@ -30,7 +30,7 @@ In this implementation, we consider each grid on the play field is a node in a g
 
 These are very good explainations of [Dijkstra's algorithm](https://www.youtube.com/watch?v=GazC3A4OQTE) and [A-star algorithm](https://www.youtube.com/watch?v=ySN5Wnu88nE) in case you are not familiar with them.
 ### Programming pattern
-The game make use of the "State design pattern" to ensure its performance. You can learn more about if [here](http://gameprogrammingpatterns.com/state.html).
+The game make use of the "State design pattern" to ensure its performance. You can learn more about it [here](http://gameprogrammingpatterns.com/state.html).
 # Future features (which may never got implemented)
 Better UI
 
