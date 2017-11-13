@@ -2,6 +2,7 @@
 This is a random repository on github in which contains a lot of random nonsense, broken English grammar, an dozen of kaomoji and among that maybe you can find a mini match-3 puzzle game implementation using plain javascript.
 
 This repo make use of [p5.js](https://p5js.org/), which provide a minimum game loop and a rich set of API to work with HTML canvas.
+![Game preview](/images/image.png)
 # How to use σ(￣、￣〃)
 Simply clone this repo through git
 ```
