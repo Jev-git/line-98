@@ -1,6 +1,8 @@
 # Table of Contents
 * [What is this](#what-is-this---)
 * [How to use](#how-to-use-σ)
+    * [Run as a browser game](#run-as-a-browser-game)
+    * [Run as a desktop app](#run-as-a-desktop-app)
 * [How to play](#how-to-play-)
     * [Scoring](#scoring)
 * [Implementation](#implementation)
