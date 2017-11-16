@@ -1,0 +1,22 @@
+{
+  "name": "line-98",
+  "version": "1.0.0",
+  "description": "Classic match-3 mini puzzle game",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kspade224/line-98.git"
+  },
+  "author": "Kspade224",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kspade224/line-98/issues"
+  },
+  "homepage": "https://github.com/Kspade224/line-98#readme",
+  "dependencies": {
+    "electron": "^1.7.9"
+  }
+}
