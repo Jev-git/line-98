@@ -16,11 +16,14 @@ This is a random repository on github in which contains a lot of random nonsense
 This repo make use of [p5.js](https://p5js.org/), which provide a minimum game loop and a rich set of API to work with HTML canvas.
 ![Game preview](/images/image.png)
 # How to use σ(￣、￣〃)
+### Run as a browser game
 Simply clone this repo through git
 ```
 git clone https://github.com/Kspade224/line-98.git
 ```
 And open the file game.html using a browser
+### Run as a desktop app
+The game can also be run as a desktop app using [Electron](https://electron.atom.io/). Please change to the [electron branch](https://github.com/Kspade224/line-98/tree/electron) to learn more.
 # How to play (￣～￣;)
 ### Scoring
 The player select a ball in the play field and move it to a new location in an attempt to make a horizontally or vertically matching group of 3 or more balls with the same color.
@@ -49,8 +52,6 @@ Better UI
 Gameover mechanic
 
 A separate config view
-
-An executable version build with [Electron](https://electron.atom.io/).
 # Reference
 [Computerphile](https://www.youtube.com/user/Computerphile) - My savior and daily entertainment source during college days ╰(▔∀▔)╯
 
