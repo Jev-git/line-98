@@ -1,3 +1,15 @@
+# Table of Contents
+* [What is this](#what-is-this---)
+* [How to use](#how-to-use-σ)
+* [How to play](#how-to-play-)
+    * [Scoring](#scoring)
+* [Implementation](#implementation)
+    * [Why Javascript?](#why-javascript)
+    * [Algorithm](#algorithm)
+    * [Programming pattern](#programming-pattern)
+* [Future features](#future-features-which-may-never-got-implemented)
+* [Reference](#reference)
+
 # What is this? (・・ ) ?
 This is a random repository on github in which contains a lot of random nonsense, broken English grammar, an dozen of kaomoji and among that maybe you can find a mini match-3 puzzle game implementation using plain javascript.
 
